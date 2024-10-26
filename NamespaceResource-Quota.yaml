@@ -8,3 +8,8 @@ spec:
     cpu: "5"
     memory: "4Gi"
     pods: "10"
+
+
+
+
+
