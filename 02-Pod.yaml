@@ -3,24 +3,16 @@
 #with shared storage and network resources, and a specification for how to run the containers.
 
 
-# apiVersion: v1
-# kind: Pod
-# metadata:
-#   name: nginx    # name of the pod 
-# spec:
-#   containers:
-#   # docker run -d --name nginx nginx
-#   - name: nginx
-#     image: nginx
-
-
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
-  namespace: expense-01
+  name: nginx    # name of the pod 
 spec:
   containers:
-    - name: nginx
-      image: nginx
+  # docker run -d --name nginx nginx
+  - name: nginx
+    image: nginx
+
+
+
 
