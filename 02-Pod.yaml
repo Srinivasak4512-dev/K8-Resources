@@ -21,7 +21,7 @@ metadata:
   namespace: expense-01  # Specify the namespace here
 spec:
   containers:
-  - name: Pod1
+  - name: nginx
     image: nginx:latest
     ports:
     - containerPort: 80
