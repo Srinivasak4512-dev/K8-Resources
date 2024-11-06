@@ -2,8 +2,11 @@ apiVersion: v1
 kind: Pod
 metadata: 
   name: nginx-01
-  namespace: expense-01
+  namespace: expense-02
 spec:
   containers:
     - name: nginx-01
       image: nginx
+
+
+
