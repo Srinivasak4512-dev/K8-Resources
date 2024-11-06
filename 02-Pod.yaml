@@ -12,7 +12,6 @@
 #   # docker run -d --name nginx nginx
 #   - name: nginx
 #     image: nginx
-
 ---
 apiVersion: v1
 kind: Pod
